@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.welcome {
+    background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+.greet {
+    font-family: 'Courier New', Courier, monospace;
+    top: 45%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size:xx-large;
+}
+.menu {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 1.25em;
+}
+.nav li, a {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+}
+.nav li, a:hover{
+    text-decoration: underline;
+}
+#intro {
+    margin-top: 30px;
+    text-align: center;
+}
+.judul1 {
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+p{
+    width: 50%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    scale: 1.5;
+}
+/* .img-sensor{
+    width: 20%;
+    padding: 20px;
+} */
+#monitoring {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+.judul2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.panel {
+    margin-top: 20px;
+    border: solid 1px black;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.panel-body{
+    margin-bottom: 30px;
+}
+.container>p{
+    text-align: center;
+}
+#responsecontainer{
+    text-align: center;
+    width: 100%;
+}
+/* .panel-heading{
+    background-color: aqua;
+    padding: 20px 0px;
+} */
+.panel1{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px;
+}
+@media only screen and (max-width:485px){
+    .nav, li, a{
+        font-size: 20px;
+    }
+}
